@@ -10,7 +10,7 @@ export default function Header() {
           </h1>
         </a>
 
-        <nav className="p-5 fle flex-row items-center">
+        <nav className="p-5  flex-row items-center max-lg:inline hidden">
           <ul className=" flex-row flex gap-5">
             <li className="font-onest font-normal h-8 tracking-widest uppercase text-xl p-8">
               {" "}
