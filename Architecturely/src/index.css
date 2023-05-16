@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Onest';
+    src: url('./assets/fonts/OnestRegular.woff') format('woff'),
+         url('./assets/fonts/OnestBlack.woff') format('woff'),
+         url('./assets/fonts/OnestBold.woff') format('woff'),
+         url('./assets/fonts/OnestExtraBold.woff') format('woff'),
+         url('./assets/fonts/OnestThin.woff') format('woff');
+}
+
+
+
+.font-onest {
+    font-family: 'Onest', sans-serif;
+  }
+
+/* *{
+    outline: 1px solid red;
+} */
