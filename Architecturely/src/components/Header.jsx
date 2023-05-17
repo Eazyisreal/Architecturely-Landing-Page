@@ -3,7 +3,7 @@ import "../index.css";
 export default function Header() {
   return (
     <div>
-      <header className="flex flex-row justify-between items-center">
+      <header className="flex flex-row text-white justify-between items-center">
         <a href="">
           <h1 className="font-onest font-normal h-8 tracking-widest uppercase text-xl p-8">
             Architecturely{" "}
