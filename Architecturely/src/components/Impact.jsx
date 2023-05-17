@@ -4,7 +4,7 @@ import arrow from "../assets/images/arrow.svg";
 export default function Impact() {
   return (
     <>
-      <section className="bg-white pt-20 px-8 ">
+      <section className="bg-white wrapper pt-20 px-8 ">
         <div>
           <div className="max-md:pl-[3.5rem]">
             <h2 className=" text-black pb-12 font-bold text-4xl max-md:text-[3.5rem]  max-md:leading-[1.3] leading-[1.3] font-onest ">
