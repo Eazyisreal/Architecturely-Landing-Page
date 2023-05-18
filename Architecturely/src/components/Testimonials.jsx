@@ -3,6 +3,8 @@ import image from "../assets/images/image.svg";
 import arrow from "../assets/images/arrow.svg";
 import quote from "../assets/images/quote.svg";
 import kim from "../assets/images/kim.svg";
+import blarrow from "../assets/images/blarrow.svg";
+import brarrow from "../assets/images/brarrow.svg";
 
 export default function Testimonials() {
     return (
@@ -77,6 +79,12 @@ export default function Testimonials() {
 
                         </div>
                     </div>
+                </div>
+
+                <div className="pt-20 flex w-full justify-between">
+                    <img className="" src={blarrow} alt="" />
+                    <div className="   border max-w-[50%] rotate-90 border-[#424242]"></div>
+                    <img className="" src={brarrow} alt="" />
                 </div>
             </div>
         </>
