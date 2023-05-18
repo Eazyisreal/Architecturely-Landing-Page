@@ -8,7 +8,7 @@ export default function Services() {
         <>
             <div className="bg-black flex pt-20 px-8 flex-col">
                 <div className="wrapper">
-                    <div className="max-md:flex  max-md:gap-[20rem] ">
+                    <div className="max-md:flex  py-8 max-md:gap-[20rem] ">
                         <h2 className="text-white whitespace-nowrap font-medium text-4xl pb-12 font-onest  ">
                             Our services
                         </h2>
@@ -20,7 +20,7 @@ export default function Services() {
                         </p>
                     </div>
 
-                    <div className="flex pb-8 snap-x snap-mandatory gap-4 flex-row  w-full">
+                    <div className="flex max-md:pb-60 pb-20 snap-x snap-mandatory gap-4 flex-row  w-full">
                         <div className="flex flex-col w-full">
                             <img
                                 className="w-full snap-start "
