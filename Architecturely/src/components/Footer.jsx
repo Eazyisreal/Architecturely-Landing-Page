@@ -62,21 +62,21 @@ export default function Footer() {
         <div className=" w-full h-[.2px]  bg-[#A5A5A5]"></div>
 
         <div className=" flex gap-12 py-20  justify-center ">
-          <div className="w-[30px] h-[30px]  max-md:w-[50px] max-md:h-[50px] items-center border-2  rounded-[50%]  border-solid border-[#151515]">
+          <div className="w-[25px] h-[25px]  max-md:w-[40px] max-md:h-[40px] items-center border-2  rounded-[50%]  border-solid border-[#151515]">
             <img
               className="w-full h-full object-cover"
               src={facebook}
               alt="facebook logo"
             />
           </div>
-          <div className="w-[30px] h-[30px]  max-md:w-[50px] max-md:h-[50px] border-2  rounded-[50%]  border-solid border-[#151515]">
+          <div className="w-[25px] h-[25px]  max-md:w-[40px] max-md:h-[40px] border-2  rounded-[50%]  border-solid border-[#151515]">
             <img
               className="w-full h-full object-cover"
               src={twitter}
               alt="twitter logo"
             />
           </div>
-          <div className="w-[30px] h-[30px]  max-md:w-[50px] max-md:h-[50px] border-2  rounded-[50%]  border-solid border-[#151515]">
+          <div className="w-[25px] h-[25px]  max-md:w-[40px] max-md:h-[40px] border-2  rounded-[50%]  border-solid border-[#151515]">
             <img
               className="w-full h-full object-cover"
               src={linkedin}
