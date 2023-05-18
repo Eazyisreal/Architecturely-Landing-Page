@@ -23,6 +23,7 @@ export default function Services() {
                     <div className="flex max-md:pb-60 pb-20 snap-x snap-mandatory gap-4 flex-row  w-full">
                         <div className="flex flex-col w-full">
                             <img
+                                loading="lazy"
                                 className="w-full snap-start "
                                 src={architecture}
                                 alt="Architectural Design Image"
@@ -32,6 +33,7 @@ export default function Services() {
 
                         <div className="flex flex-col w-full">
                             <img
+                                loading="lazy"
                                 className="w-full snap-start "
                                 src={interior}
                                 alt="Interior Design Image"
@@ -41,6 +43,7 @@ export default function Services() {
 
                         <div className="flex flex-col w-full">
                             <img
+                                loading="lazy"
                                 className="w-full snap-start "
                                 src={decoration}
                                 alt="Architectural Design Image"

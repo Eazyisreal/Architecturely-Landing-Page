@@ -15,7 +15,7 @@ export default function Impact() {
               <a href="">
                 <button className="font-onest items-center  font-medium flex gap-2 text-base tracking-widest leading-[140%] p-2 text-white uppercase ">
                   {" "}
-                  See More <img src={arrow} alt="Right Arrow" />{" "}
+                  See More <img loading="lazy" src={arrow} alt="Right Arrow" />{" "}
                 </button>
               </a>
             </div>

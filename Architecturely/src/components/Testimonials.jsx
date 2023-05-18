@@ -12,6 +12,7 @@ export default function Testimonials() {
       <div className="bg-white pt-20 px-8 wrapper ">
         <div className="flex flex-col gap-20 max-md:flex-row ">
           <img
+            loading="lazy"
             className="pb-8 max-md:w-1/2 max-lg:h-1/2"
             src={image}
             alt="An Image of a sky scrapper"
@@ -34,7 +35,7 @@ export default function Testimonials() {
               <a href="">
                 <button className="font-onest items-center  font-medium flex gap-2 text-base tracking-widest leading-[140%] p-2 text-white uppercase ">
                   {" "}
-                  See More <img src={arrow} alt="Right Arrow" />{" "}
+                  See More <img loading="lazy" src={arrow} alt="Right Arrow" />{" "}
                 </button>
               </a>
             </div>
@@ -56,7 +57,7 @@ export default function Testimonials() {
 
         <div className="pt-20 flex">
           <div className=" flex  flex-col max-md:px-[8rem] max-lg:px-[20rem]">
-            <img className="w-1/12" src={quote} alt="Quotation Mark" />
+            <img loading="lazy" className="w-1/12" src={quote} alt="Quotation Mark" />
             <h2 className="font-onset pt-8 text-black  max-md:text-5xl font-semibold text-4xl">
               Fast work and always delivers the best
             </h2>
@@ -70,6 +71,7 @@ export default function Testimonials() {
             <div className="pt-20 flex-col flex">
               <div className="flex gap-4">
                 <img
+                  loading="lazy"
                   className="max-md:w-1/12 w-2/12 "
                   src={kim}
                   alt="A man's Photo"
@@ -88,9 +90,9 @@ export default function Testimonials() {
         </div>
 
         <div className="pt-20 pb-20 flex w-full items-center justify-between">
-          <img className="" src={blarrow} alt="" />
+          <img loading="lazy" className="" src={blarrow} alt="" />
           <div className="   w-full h-[1px] max-md:max-w-[80%]  max-w-[70%] bg-[#424242]"></div>
-          <img className="" src={brarrow} alt="" />
+          <img loading="lazy" className="" src={brarrow} alt="" />
         </div>
       </div>
     </>

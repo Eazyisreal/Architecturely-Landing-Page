@@ -20,7 +20,7 @@ export default function Hero() {
 
           <div className=" flex-col flex w-[50%]  max-xl:flex  h-4 mb-[4rem] max-lg:mb-0 max-sm:w-[30%] max-lg:mt-[30.5rem] ">
             <p className="font-onset text-xl uppercase text-white   font-medium leading-[140%] tracking-widest">Get in Touch</p>
-            <img src={line} />
+            <img  loading="lazy"src={line} />
           </div>
         </div>
       </div>
