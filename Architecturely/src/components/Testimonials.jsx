@@ -57,7 +57,7 @@ export default function Testimonials() {
                 <div className="pt-20 flex">
                     <div className=" flex  flex-col max-md:px-[8rem] max-lg:px-[20rem]">
                         <img className="w-1/12" src={quote} alt="Quotation Mark" />
-                        <h2 className="font-onset text-black  max-md:text-5xl font-semibold text-4xl">
+                        <h2 className="font-onset pt-8 text-black  max-md:text-5xl font-semibold text-4xl">
                             Fast work and always delivers the best
                         </h2>
 
