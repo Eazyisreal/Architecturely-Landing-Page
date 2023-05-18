@@ -81,9 +81,9 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                <div className="pt-20 flex w-full justify-between">
+                <div className="pt-20  pb-8 flex w-full items-center justify-between">
                     <img className="" src={blarrow} alt="" />
-                    <div className="   border max-w-[50%] rotate-90 border-[#424242]"></div>
+                    <div className="   w-full h-[1px] max-md:max-w-[80%]  max-w-[60%] bg-[#424242]"></div>
                     <img className="" src={brarrow} alt="" />
                 </div>
             </div>
