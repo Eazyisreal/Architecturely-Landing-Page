@@ -21,7 +21,7 @@ export default function Impact() {
             </div>
           </div>
 
-          <div className="pr-12 pt-12 max-md:flex max-md:flex-col max-md:items-end max-md:w-full max-md:pr-[8rem] ">
+          <div className="pr-8 pt-12 max-md:flex max-md:flex-col max-md:items-end max-md:w-full max-md:pr-[8rem] ">
             <div className="flex flex-row pb-20 max-md:w-3/4 justify-between">
               <div className=" flex flex-col items-start gap-[6.85px]">
                 <h2 className="font-onset text-black font-normal text-5xl max-md:text-[5.75rem] ">

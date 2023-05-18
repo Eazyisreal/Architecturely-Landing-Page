@@ -20,7 +20,7 @@ export default function Services() {
                         </p>
                     </div>
 
-                    <div className="flex max-md:pb-60 pb-20 snap-x snap-mandatory gap-4 flex-row  w-full">
+                    <div className="flex max-md:pb-60 pb-20  gap-4 flex-row  w-full">
                         <div className="flex flex-col w-full">
                             <img
                                 loading="lazy"
@@ -41,7 +41,7 @@ export default function Services() {
                             <p className="text-white font-normal pt-4 text-xl font-onest">Interior Design</p>
                         </div>
 
-                        <div className="flex flex-col w-full">
+                        <div className="flex min-sm:hidden flex-col w-full">
                             <img
                                 loading="lazy"
                                 className="w-full snap-start "
