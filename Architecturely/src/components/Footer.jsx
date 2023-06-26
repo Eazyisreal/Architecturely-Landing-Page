@@ -1,8 +1,9 @@
 import "../index.css";
+
 import brarrow from "../assets/images/brarrow.svg";
-import facebook from "../assets/images/facebook.svg";
-import twitter from "../assets/images/twitter.svg";
-import linkedin from "../assets/images/linkedin.svg";
+import facebook from "../assets/images/facebook.webp";
+import linkedin from "../assets/images/linkedin.webp";
+import twitter from "../assets/images/twitter.webp";
 
 export default function Footer() {
     return (

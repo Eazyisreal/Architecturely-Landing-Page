@@ -1,10 +1,11 @@
 import "../index.css";
-import image from "../assets/images/image.svg";
+
 import arrow from "../assets/images/arrow.svg";
-import quote from "../assets/images/quote.svg";
-import kim from "../assets/images/kim.svg";
 import blarrow from "../assets/images/blarrow.svg";
 import brarrow from "../assets/images/brarrow.svg";
+import image from "../assets/images/image.webp";
+import kim from "../assets/images/kim.webp";
+import quote from "../assets/images/quote.webp";
 
 export default function Testimonials() {
   return (
@@ -17,7 +18,7 @@ export default function Testimonials() {
             src={image}
             alt="An Image of a sky scrapper"
           />
-          <div className="max-lg:p-[5.5rem] max-md:pt-[1rem]">
+          <div className="">
             <p className="font-onest max-lg:text-5xl  max-md:text-3xl max-lg:pt-8 max-md:leading-[1.3] max-lg:leading-[1.5] pb-8 font-semibold text-black  text-4xl">
               We design places that improve life and works by adding a strong
               sense of purpose and identity
@@ -47,7 +48,7 @@ export default function Testimonials() {
             Over 100+ <br /> people trust us
           </h2>
 
-          <p className="font-onest max-md:text-xl max-md:leading-[2] text-[#424242] max-lg:pl-[20rem] max-md:pl-[3rem] max-lg:pr-[5rem] leading-[2]  text-base font-normal">
+          <p className="font-onest max-md:text-xl max-md:leading-[2] text-[#424242] max-lg:ml-[10rem] max-md:pl-[3rem] max-lg:mr-[5rem] leading-[2]  text-base font-normal">
             we also place a strong emphasis on sustainability and environmental
             responsibility. Our team of experts incorporates sustainable design
             principles and practices into every project, ensuring that we

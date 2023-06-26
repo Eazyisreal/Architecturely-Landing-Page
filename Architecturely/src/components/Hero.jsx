@@ -1,8 +1,8 @@
 import "../index.css";
 
 import Header from "./Header";
-import heroImage from "../assets/images/hero-image.svg";
-import line from "../assets/images/line.svg";
+import heroImage from "../assets/images/hero-image.webp";
+import line from "../assets/images/line.webp";
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
         <Header />
 
         <div className="p-[4rem]  wrapper flex flex-col gap-2 max-sm:gap-10 max-lg:gap-72 max-md:flex-col max-lg:flex-row ">
-          <p className="  mb-[3rem] text-white  text-[2.3rem] max-md:mt-[15rem]  max-md:text-[6.25rem]  max-md:leading-[100%]  font-normal max-xl:leading-[110%]  font-onset max-xl:text-[6.25rem] ">
+          <p className="  mb-[3rem] text-white  text-[2.3rem] max-md:mt-[15rem]  max-md:text-[6.25rem]  max-md:leading-[100%]  font-normal max-xl:leading-[110%]  font-onset max-xl:text-[5.2rem] ">
             We are a fine <br /> architecture firm <br /> in New York
           </p>
 

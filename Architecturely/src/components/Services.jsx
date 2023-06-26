@@ -1,7 +1,8 @@
 import "../index.css";
+
 import architecture from "../assets/images/architecture.svg";
-import interior from "../assets/images/interior.svg";
-import decoration from "../assets/images/decoration.svg";
+import decoration from "../assets/images/decoration.webp";
+import interior from "../assets/images/interior.webp";
 
 export default function Services() {
     return (
@@ -12,7 +13,7 @@ export default function Services() {
                         <h2 className="text-white whitespace-nowrap font-medium text-4xl pb-12 font-onest  ">
                             Our services
                         </h2>
-                        <p className="text-[#A5A5A5] max-lg:pl-[20rem] max-lg:pr-[12rem]  text-base leading-[2]  pb-8 font-normal font-onest ">
+                        <p className="text-[#A5A5A5] max-lg:ml-[10rem] max-lg:mr-[12rem]  text-base leading-[2]  pb-8 font-normal font-onest ">
                             We take pride in our commitment to quality, creativity, and client
                             satisfaction. Our goal is to provide you with a service that not only
                             meets your expectations but exceeds them. Contact us today to learn

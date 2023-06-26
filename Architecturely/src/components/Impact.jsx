@@ -1,4 +1,5 @@
 import "../index.css";
+
 import arrow from "../assets/images/arrow.svg";
 
 export default function Impact() {
